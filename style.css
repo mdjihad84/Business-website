@@ -26,7 +26,6 @@ ul li a {
     font-weight: 700;
     line-height: 65px;
 }
-.header ul li a:hover,
 .header ul li:hover{
     background: #4fe98c;
     color: black;
@@ -256,4 +255,6 @@ ul li a {
     color: #4fe98c;
     font-size: 14px;
 }
+
+
 
