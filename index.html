@@ -14,63 +14,73 @@
         <header>
             <nav>
                 <ul>
-                    <li><a href=""><i class="fa-solid fa-house"></i> Home</a></li>
-                    <li><a href=""><i class="fa-solid fa-user"></i> About</a></li>
-                    <li><a href=""><i class="fa-solid fa-gear"></i>Service</a></li>
-                    <li><a href=""><i class="fa-solid fa-envelope"></i>Contact</a></li>
+                    <li class="active"><a href="#home"><i class="fa-solid fa-house"></i> Home</a></li>
+                    <li><a href="#about"><i class="fa-solid fa-user"></i> About</a></li>
+                    <li><a href="#service"><i class="fa-solid fa-gear"></i>Service</a></li>
+                    <li><a href="#contact"><i class="fa-solid fa-envelope"></i>Contact</a></li>
                 </ul>
             </nav>
         </header>
     </section>
     <!-- hero section -->
-    <section class="hero-contain">
+    <section id="home" class="hero-contain">
         <div class="hero-content">
             <img src="./images/service.svg" alt="" class="hero-img">
-            <h5 class="hero-contain-h5">PLATFORM BUSINESS GROWTH</h5>
-            <h3 class="hero-contain-h3">Get Your Online Business Goals In Order</h3>
+            <h5 class="text-green">PLATFORM BUSINESS GROWTH</h5>
+            <h3 class="text-white">Get Your Online Business Goals In Order   </h3>
             <a class="hero-btn" href="">Learn More</a>
         </div>
-        <div class="hero-content">
-            <img src="./images/about.svg" alt="" class="hero-img">
-            <h5 class="hero-contain-h5">WHO WE ARE?</h5>
-            <h3 class="hero-contain-h3">Get Your Online Business Goals In Order</h3>
-            <a class="hero-btn" href="">Learn More</a>
+    </section>
+    <!--About section  -->
+    <section id="about" class="about-contain">
+        <div class="about-content">
+            <img src="./images/about.svg" alt="" class="about-img">
+            <h5 class="text-green">WHO WE ARE?</h5>
+            <h3 class="text-white">Get Your Online Front-End Web Developer</h3>
+            <a class="about-btn" href="">Learn More</a>
         </div>
-        <div class="hero-content">
-            <img src="./images/service.svg" alt="" class="hero-img">
-            <h5 class="hero-contain-h5">OUR SPECIALIZE</h5>
-            <h3 class="hero-contain-h3">WHAT WE OFFER?</h3>
-            <a class="hero-btn" href="">Learn More</a>
-            <div class="hero-content-cart">
-                <div class="hero-cart">
+    </section>
+    <!-- service section -->
+    <section id="service" class="service-contain">
+        <div class="service-content">
+            <img src="./images/service.svg" alt="" class="service-img">
+            <h5 class="text-green">OUR SPECIALIZE</h5>
+            <h3 class="text-white">WHAT WE OFFER?</h3>
+            <a class="service-btn" href="">Learn More</a>
+            <div class="service-content-cart">
+                <div class="service-cart">
                     <h4>UI/UX Design</h4>
-                    <p>It is a involves the systematic analysis of data to gain valuable insights into the various</p>
+                    <p>It is a involves the systematic analysis of data to gain valuable insights into the various type aspects of a business.</p>
                 </div>
-                <div class="hero-cart">
+                <div class="service-cart">
                     <h4>Digital Marketing</h4>
-                    <p>It is a involves the systematic analysis of data to gain valuable insights into the various</p>
+                    <p>It is a involves the systematic analysis of data to gain valuable insights into the various type aspects of a business.</p>
                 </div>
-                <div class="hero-cart">
+                <div class="service-cart">
                     <h4>Web Developments</h4>
-                    <p>It is a involves the systematic analysis of data to gain valuable insights into the various</p>
+                    <p>It is a involves the systematic analysis of data to gain valuable insights into the various type aspects of a business.</p>
                 </div>
-                <div class="hero-cart">
+                <div class="service-cart">
                     <h4>Product Design</h4>
-                    <p>It is a involves the systematic analysis of data to gain valuable insights into the various</p>
+                    <p>It is a involves the systematic analysis of data to gain valuable insights into the various type aspects of a business.</p>
                 </div>
             </div>
         </div>
-        <div class="hero-content">
-            <img src="./images/contact.svg" alt="" class="hero-img">
-            <h5 class="hero-contain-h5">LET'S CHAT</h5>
-            <h3 class="hero-contain-h3">SEND A MESSAGE</h3>
-                <form action="">
-                    <input type="text" placeholder="Name">
-                    <input type="email" placeholder="Email">
-                    <textarea placeholder="Massage"></textarea>
-                    <input type="submit" value="Let's Talk" class="btn">
-                </form>
-        </div>
     </section>
+    <!-- contact section  -->
+    <section id="contact" class="contain">
+        <div class="contact-area">
+            <img src="./images/contact.svg" alt="" class="contact-img">
+            <h5 class="text-green">LET'S CHAT</h5>
+            <h3 class="text-white">SEND A MESSAGE</h3>
+            <form action="/">
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Email">
+                <textarea placeholder="Massage"></textarea>
+                <input type="submit" value="Let's Talk" class="btn">
+            </form>
+            <P class="creator"><span>creator</span> md jahidul islam jihad</P>
+        </div>
+    </section>    
 </body>
 </html>
